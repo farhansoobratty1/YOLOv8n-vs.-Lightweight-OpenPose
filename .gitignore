@@ -1,0 +1,25 @@
+# Footage and model weights are not redistributed
+videos/
+*.mp4
+*.avi
+*.mov
+*.pt
+*.pth
+
+# Generated when the scripts are run
+yolo_results.csv
+openpose_results.csv
+runs/
+
+# Python / editor noise
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Windows folder settings
+desktop.ini

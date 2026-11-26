@@ -1,0 +1,7 @@
+clip,algorithm,cpu_run1_pct,cpu_run2_pct,cpu_run3_pct,cpu_run4_pct,cpu_run5_pct,avg_cpu_pct,std_dev_cpu,avg_fps,std_dev_fps,avg_strikes_detected,ground_truth_strikes,accuracy_pct
+Baseline movements,YOLOv8n,85,82,87,84,86,84.8,1.92,10,0.5,1.2,2,60
+Baseline movements,Lightweight OpenPose,92,90,94,91,93,92,1.58,4,0.4,1.8,2,90
+Active strikes,YOLOv8n,88,86,89,87,85,87,1.58,9.5,0.6,6,8,75
+Active strikes,Lightweight OpenPose,95,94,96,93,95,94.6,1.14,3.5,0.3,7.2,8,90
+Complex sequences,YOLOv8n,87,85,88,86,84,86,1.58,9,0.7,4,6,66.7
+Complex sequences,Lightweight OpenPose,94,93,95,92,94,93.6,1.14,3.2,0.4,5,6,83.3

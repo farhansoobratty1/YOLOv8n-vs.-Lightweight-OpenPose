@@ -1,0 +1,9 @@
+# YOLO script, clip downloader and the measurement harness.
+# Harness written and tested in Nov 2026 with Ultralytics 8.4, PyTorch 2.15, OpenCV 5, Python 3.13.
+# Versions recorded for the original 2025 runs: ultralytics 8.3.206, OpenCV 4.11.0.
+# (Lightweight OpenPose has its own requirements - install those in a separate environment.)
+ultralytics>=8.3
+opencv-python>=4.5
+psutil
+numpy
+yt-dlp
